@@ -1,7 +1,8 @@
 # Automatización — Despensalo.cl (U3 Testing)
 
 Suite de automatización con [Playwright](https://playwright.dev/) para los 3 casos
-seleccionados como repetitivos y estables (tabla del informe, sección 9):
+seleccionados como repetitivos y estables (tabla de la sección 9 del informe oficial
+`resources/docs/EVU3_Gomez_Araya_Christopher_Seccion50_VERSION_FINAL.docx`):
 
 | ID | Caso | Archivo | TC manual relacionado |
 |---|---|---|---|
