@@ -1,0 +1,24 @@
+{
+  "name": "despensalo-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automatización de pruebas para despensalo.cl (Evaluación U3 - Testing Aplicado al Desarrollo de Sistemas)",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:auto001": "playwright test auto-001-carga-acceso-inicial",
+    "test:auto002": "playwright test auto-002-login-cuenta-prueba",
+    "test:auto003": "playwright test auto-003-creacion-producto",
+    "test:desktop": "playwright test --project=chrome-desktop",
+    "test:mobile": "playwright test --project=chrome-mobile",
+    "test:3runs": "bash ./run-3-times.sh",
+    "report": "playwright show-report reports/html",
+    "install:browsers": "playwright install --with-deps"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.0.0",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.6.0"
+  }
+}
